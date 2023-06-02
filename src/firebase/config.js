@@ -8,19 +8,19 @@ import{getStorage,ref}from 'firebase/storage'
 
   const firebaseConfig = {
 
-    apiKey: "AIzaSyB1zV8TUNMt_12c1H9FiBEfrhi28jDP2p4",
+    apiKey:
   
-    authDomain: "react-70bed.firebaseapp.com",
+    authDomain:....
     
-    projectId: "react-70bed",
+    projectId:...
   
-    storageBucket: "react-70bed.appspot.com",
+    storageBucket:....
   
-    messagingSenderId: "225661914420",
+    messagingSenderId:...
   
-    appId: "1:225661914420:web:33b7f5ec1da72b02e42961",
+    appId:... 
   
-    measurementId: "G-588N0C7XK6"
+    measurementId:...
   
   };
   const fier=initializeApp(firebaseConfig);
