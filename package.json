@@ -16,7 +16,10 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+     
   },
   "browserslist": {
     "production": [
@@ -29,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
